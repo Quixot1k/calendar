@@ -1,0 +1,19 @@
+/* DayCell */
+.calendar-month-day-cell {
+  border-radius: 2rem;
+  margin: 0.25rem 0.5vw;
+  transition: ease-in-out 0.2s;
+}
+
+.choosed-day-cell {
+  background-color: #353535;
+  color: white;
+}
+
+.in-range-day-cell {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.day-cell-sunday {
+  color: #d25752;
+}
